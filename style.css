@@ -8,8 +8,14 @@
     height: 100%;
   }
   .Naa > *{
-    padding-left: 2%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+  }
+  .card-right{
     padding-right: 2%;
+  }
+  .card-left{
+    padding-left: 2%;
   }
   .back-shapes {
     width: 100%;
