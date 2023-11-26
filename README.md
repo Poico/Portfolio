@@ -11,22 +11,16 @@ The portfolio is divided into several sections:
 - **Work**: A showcase of my work and projects.
 - **Experience**: My professional experience and roles.
 
-## Running Locally
+## Link for Website
 
-To run this project locally, follow these steps:
-
-1. Clone the repository: `git clone https://github.com/yourusername/portfolio.git`
-2. Navigate into the project directory: `cd portfolio`
-3. If necessary, install dependencies: `npm install`
-4. Start the local server: `npm start`
-
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+https://poico.bcdlab.xyz/
 
 ## Built With
 
 - HTML
 - CSS
 - JavaScript
+- Tailwind CSS
 
 ## Contact
 
