@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.5/dist/full.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="./style.css" />
+  <script src="./app.js" defer></script>
   <script src="https://cdn.tailwindcss.com"></script>
   <title>Rodrigo - Portfolio</title>
 </head>
@@ -233,16 +234,26 @@
         </div>
       </div>
     </div>
+
     <!--Work-->
-    <div id="Work" class="Naa flex flex-col w-full lg:flex-row w-screen h-screen snap-start">
+    <div id="Work" class="Naa flex flex-row w-full lg:flex-row w-screen h-screen snap-start">
       <div class="grid flex-grow place-items-center">
-        
+        <div id="github-projects" class="grid grid-cols-3 gap-4">
+          <!-- Projects will be displayed here -->
+        </div>
       </div>
     </div>
+
     <!--Experience-->
     <div id="Experience" class="Naa flex flex-col w-full lg:flex-row w-screen h-screen snap-start">
-      <div class="grid flex-grow place-items-center">
-        
+      <div class="flex justify-center w-full gap-12">
+        <ol class="relative border-s border-gray-700" id="experience-timeline">
+          <!-- Experience will be displayed here -->
+        </ol>
+
+        <ol class="relative border-s border-gray-700" id="experience-timeline2">
+          <!-- Experience will be displayed here -->
+        </ol>
       </div>
     </div>
 </body>
